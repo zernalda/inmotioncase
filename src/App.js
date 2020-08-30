@@ -14,9 +14,15 @@ function App() {
         <div className="row">
           <div className="col-6">
             <Hamburger />
+              <div style={{position:"absolute", color:"white", paddingLeft:'520px'}}>
+                <i class="fab fa-schlix" style={{color:'#3C3F54',fontSize:"250px", width:"50px"}}></i>
+              </div>
             <div className="container">
               <Project />
               <ProjectsAdd />
+              <div style={{position:"absolute", color:"white", paddingLeft:'100px'}}>
+                <i class="fab fa-angrycreative" style={{color:'#3C3F54',paddingTop:'200px', fontSize:"250px", width:"50px"}}></i>
+              </div>
             </div>
           </div>
          
