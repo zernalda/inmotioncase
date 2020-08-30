@@ -4,8 +4,10 @@
     font-size: small;
 }
 
-.fa-align-center {
+.fa-bars {
     color: #ffffffb3;
+    padding-left: 1px;
+    padding-top: 5px;
 }
 
 .text1{

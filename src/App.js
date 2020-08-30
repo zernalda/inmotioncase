@@ -19,6 +19,7 @@ function App() {
               <ProjectsAdd />
             </div>
           </div>
+         
           <div className="todoMain col-6">
             <div className="container" style={{padding: "50px"}}>
               <TitleTodo />
