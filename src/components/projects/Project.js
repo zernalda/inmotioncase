@@ -109,26 +109,20 @@ class Project extends Component {
                                                         
                                                     </li>);
                                                 }
-                                        }
-                                        
+                                            }
                                         )
-                                        ()
-                                    }
-                                    
-                                    
+                                    ()
+                                    }  
                                 </div>
-                                
                                 <span className="text3" style={{marginTop:"15px"}}>{name} </span>
                                 <h1>{has_notification}</h1>
-                                
                             </ul>
                         )
                     })
                 :<p>...loading</p>
                 }
-                {/* <div>a</div> */}
-                </div>
-              </div>
+            </div>
+        </div>
         );
     }
 }

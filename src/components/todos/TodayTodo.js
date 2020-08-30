@@ -18,7 +18,6 @@ class TodayTodo extends Component {
 
     render() {
         const {data} = this.state;
-        console.log("data " + JSON.stringify(data));
         return (
             <div className="today-section">
                 <div className="row">
@@ -84,11 +83,10 @@ class TodayTodo extends Component {
                                     </div>
                                 </div>
                             </div>
-                        
-                );
-            })
-        :<p>...loading</p>
-        }
+                        );
+                    })
+                :<p>...loading</p>
+            }
         </div>
     );
     }

@@ -18,8 +18,6 @@ class UpcomingTodo extends Component {
 
     render() {
         const {data} = this.state;
-        
-        // console.log("data ini isi state todosss: " + JSON.stringify(data));
         return (
             <div className="upcoming-section">
                 <div className="row">
@@ -85,7 +83,6 @@ class UpcomingTodo extends Component {
                                     </div>
                                 </div>
                             </div>
-                        
                             );
                         })
                     :<p>...loading</p>
