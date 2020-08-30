@@ -9,7 +9,7 @@
 }
 
 .text1{
-    color: #ffffffb3;
+    color: #3C3F54;
 }
 
 .text2{
@@ -263,9 +263,11 @@
 .notif > span {
     position: absolute;
     background-color: white;
+    border: solid #262A41;
     border-radius: 50%;
     width: 18px;
     height: 18px;
+    
 }
 
 .project-title > p {
