@@ -9,6 +9,20 @@
     padding-left: 1px;
     padding-top: 5px;
 }
+
+.fa-schlix{
+    color:#3C3F54;
+    font-size:250px; 
+    width:50px;
+}
+
+.fa-angrycreative {
+    color:#3C3F54;
+    padding-top:200px; 
+    font-size:250px; 
+    width:50px;
+}
+
 .fa-5x {
     font-size: 16em;
 }
